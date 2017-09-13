@@ -1,17 +1,154 @@
-.row{margin-bottom:50px}
+/*font-family: 'Montez', cursive;
+font-family: 'Ubuntu', sans-serif;*/
+h1, h2, h3{
+	font-family:'Montez', cursive;
+}
 
-.bloc1, .bloc2, .bloc3, .bloc4{
-	height:200px;
-	}
-.bloc1{background-color:red}
-.bloc2{background-color:blue}
-.bloc3{background-color:green}
-.bloc4{background-color:yellow}
-form{
-	margin-bottom:50px;
-	}
-.text-hide{
-	background:url(../img/IMG_8746.JPG)no-repeat 0 0;
-	background-size:cover;
-	height:300px;
-	}
+a, p{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/* section Nav */
+
+.navbar-toggle .icon-bar{
+	background-color:#000;
+}
+
+/* section home */
+
+.bgHome{
+	background-color:#2cac95;
+	height:100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section intro */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section espace */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section Services */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section tarifs */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section réservation */
