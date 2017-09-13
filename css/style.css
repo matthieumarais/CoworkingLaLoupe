@@ -1,0 +1,17 @@
+.row{margin-bottom:50px}
+
+.bloc1, .bloc2, .bloc3, .bloc4{
+	height:200px;
+	}
+.bloc1{background-color:red}
+.bloc2{background-color:blue}
+.bloc3{background-color:green}
+.bloc4{background-color:yellow}
+form{
+	margin-bottom:50px;
+	}
+.text-hide{
+	background:url(../img/IMG_8746.JPG)no-repeat 0 0;
+	background-size:cover;
+	height:300px;
+	}
