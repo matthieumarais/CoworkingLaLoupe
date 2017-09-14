@@ -202,3 +202,20 @@ text-align: center;
 
 
 /* section réservation */
+.reservation form div{
+	margin-bottom:30px;
+}
+.reservation input{
+	font-size:16px;
+	font-family: "Montserrat",sans-serif;
+	background-color:#ecedee;
+	border:1px solid #2cac95;
+	padding:16px;
+	}
+.reservation textarea{
+	resize:none;
+	font-size:16px;
+	font-family: "Montserrat",sans-serif;
+	background-color:#ecedee;
+	border:1px solid #2cac95;
+}
