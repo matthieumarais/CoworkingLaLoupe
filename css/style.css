@@ -6,8 +6,31 @@ h1, h2, h3{
 
 a, p{
 	font-family: 'Ubuntu', sans-serif;
+	font-size:16px;
 }
 
+a{
+	color:#fff;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+	background-color:transparent;
+	color:#000;
+}
+.navbar-brand:focus, .navbar-brand:hover{
+	color:#000;
+}
+p{
+	font-size:16px;
+	height:20px;
+}
+.bgGreen{
+	background-color:#2cac95;
+	background-size:cover;
+}
+.bgGrey{
+	background-color:#ecedee;
+	background-size:cover;
+}
 /* section Nav */
 
 .navbar-toggle .icon-bar{
@@ -21,6 +44,33 @@ a, p{
 	height:100vh;
 }
 
+.home h1{
+	margin-bottom:30px;
+	font-size:230px;
+	line-height: 170px;
+	color:#fff;
+}
+.home h1 span{
+	font-size:100px;
+}
+.home p{
+	font-size:26px;
+	color:#fff;
+	margin-bottom:60px;
+}
+.home  .title{
+top:15%;
+text-align: center;
+}
+.home .logos{
+	
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.home img{
+	height:130px;
+}
 
 
 

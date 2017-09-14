@@ -20,7 +20,7 @@
    height="30"><metadata
      id="metadata14"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
      id="defs12" /><sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -35,7 +35,7 @@
      id="namedview10"
      showgrid="false"
      inkscape:zoom="1.888"
-     inkscape:cx="-127.9661"
+     inkscape:cx="-38.983051"
      inkscape:cy="62.5"
      inkscape:window-x="59"
      inkscape:window-y="24"
@@ -43,5 +43,4 @@
      inkscape:current-layer="svg2" /><path
      d="M 30,11.459732 28.934164,12.960116 15.000195,2.3147981 1.065835,12.960116 0,11.459732 15.000195,0 l 9.260151,7.0748631 0,-1.700543 1.757515,0 0,3.043313 L 30,11.459732 Z m -26.849752,1.759699 0,16.780569 7.866246,0 0,-7.808647 c 0,-2.282789 1.783292,-4.13244 3.984092,-4.13244 2.199627,0 3.984091,1.849651 3.984091,4.13244 l 0,7.808647 7.866246,0 0,-16.780569 L 15.000195,4.1656651 3.150249,13.219431 Z"
      id="path4"
-     inkscape:connector-curvature="0"
-     style="fill:#ffffff" /></svg>
+     inkscape:connector-curvature="0" /></svg>
