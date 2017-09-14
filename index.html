@@ -14,7 +14,7 @@
   <![endif]-->
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 <header>
   <nav class="navbar navbar-fixed-top">
     <div class="container">
@@ -24,21 +24,21 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         </button>
-     <a class="navbar-brand" href="index.html"><img src="img/home.svg" alt="Home" title="Home"></a></div>
+     <a class="navbar-brand" href="#home"><img src="img/home.svg" alt="Home" title="Home"></a></div>
       <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Introduction</a></li>
-        <li><a href="#">Espace</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Tarifs</a></li>
-        <li><a href="#">R&eacute;servation</a></li>
+        <li class="active"><a href="#introduction">Introduction</a></li>
+        <li><a href="#espace">Espace</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#tarifs">Tarifs</a></li>
+        <li><a href="#reservation">R&eacute;servation</a></li>
       </ul>
       </div>
     </div>
   </nav>
 </header>
 <main>
-  <section class="home container-fluid bgHome">
+  <section id="home" class="home container-fluid bgHome">
 <h1></h1>
 
 
@@ -46,13 +46,13 @@
 
 
   </section>
-  <section class="intro">
+  <section id="introduction" class="intro">
 
     <h2></h2>
 <p></p>
   
 </section>
-  <section class="espace">
+  <section id="espace" class="espace">
 <h2></h2>
 <p></p>
     <article>
@@ -76,7 +76,7 @@
 
 </article>
   </section>
-  <section class="services">
+  <section id="services" class="services">
       <h2></h2>
       <p></p>
       <article>
@@ -100,7 +100,7 @@
       
       </article>
   </section>
-  <section class="tarifs">
+  <section id="tarifs" class="tarifs">
     <h2></h2>
     <article>
       
@@ -123,7 +123,7 @@
       
     </article>
   </section>
-  <section class="reseration">
+  <section id="reservation" class="reseration">
 
   </section>
 </main>
