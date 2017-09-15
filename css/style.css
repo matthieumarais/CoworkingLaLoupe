@@ -8,6 +8,7 @@ a, p, h2{
 	font-family: 'Ubuntu', sans-serif;
 	font-size:16px;
 }
+
 strong{
 	font-weight: normal;
 }
@@ -15,6 +16,7 @@ strong{
 a{
 	color:#fff;
 }
+
 .nav>li>a:focus, .nav>li>a:hover{
 	background-color:transparent;
 	color:#000;
@@ -234,9 +236,35 @@ text-align: center;
 
 
 /* section tarifs */
-
-
-
+.tarifs img{
+width: 100%;
+}
+.tarifs{
+padding: 50px 0;
+}
+.tarifs article{
+padding: 50px;
+}
+.tarifs article .bgBlanc{
+	background-color: white;
+}
+.tarifs article .boiteImg{
+	padding:40px 70px 30px 70px;
+}
+.tarifs article div img{
+	width:100%;
+}
+.tarifs p {
+	padding: 0 0 80px 10px;
+	text-align: center;
+}
+.tarifs .colorPrix{
+	color: #2cac95;
+}
+.tarifs h2 {
+	color: white;
+	text-align: center;
+}
 
 
 
