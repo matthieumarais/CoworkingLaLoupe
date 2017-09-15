@@ -266,6 +266,7 @@ text-align: center;
 }
 .reservation h2{
 	padding-bottom:40px;
+	font-size:42px;
 }
 .reservation .formulaire{
 	padding-right:60px;
@@ -290,6 +291,7 @@ text-align: center;
 	border:1px solid #2cac95;
 	display: block;
 	width:100%;
+	padding-bottom:86px;
 }
 .reservation .myButton{
 	width:100%;
