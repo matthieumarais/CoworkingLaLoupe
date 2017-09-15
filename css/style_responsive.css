@@ -19,6 +19,9 @@
     background-color:#fff;
     text-align: center;
 }
+.formulaire{
+padding-bottom: 30px;
+}
 }
 
 @media screen and (max-width: 667px) {
