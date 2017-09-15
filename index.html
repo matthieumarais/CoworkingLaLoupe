@@ -58,16 +58,55 @@
 
 
   </section>
-  <section id="introduction" class="intro">
+  <section id="introduction" class="container intro">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>Situ&eacute; au pied de la gare, le <strong>&laquo; Coworking La Loupe &raquo;</strong> est un espace de travail partag&eacute;
+            accessible à tous.</br>
+            Plus qu'un simple bureau, c'est un lieu de travail ouvert, destin&eacute; aux </br>entrepreneurs
+            ind&eacute;pendants, t&eacute;l&eacute;travailleurs et salari&eacute;s itin&eacute;rants.</br>
+            Il vous permet de travailler dans un bureau à un tarif raisonnable </br> et de rencontrer et
+            &eacute;changer avec des professionnels de divers horizons.</br>
+            Le lieu est port&eacute; par la Communaut&eacute; de communes <strong>&laquo; Terres de Perche &raquo;</strong> </br> et la <strong>Wild Code
+            School</strong>, l’&eacute;cole de d&eacute;veloppeurs web.</p>
+      </div>
+    </div>
+  </section>
 
-    <h2></h2>
-<p></p>
-  
-</section>
-  <section id="espace" class="espace">
-<h2></h2>
-<p></p>
-    <article>
+
+
+  <section id="espace" class="container-fluid bgGrey">
+    <div class="container espace">
+        <h2>ESPACES</h2>
+        <p class="titre col-xs-12">Venez travailler au <strong>Coworking La Loupe</strong>, </br>
+          vous y trouverez:
+        </p>
+      
+        <article class="openSpace col-xs-12 col-md-4">
+            <h3>Open Space</h3>
+            <img src="img/bureau.svg" alt="image openSpace">
+            <p>Une salle toute &eacute;quip&eacute;e de 35m&sup2;</p>
+            <div class="mobileLine bgGreen col-sm-12 visible-sm visible-xs"></div>
+        </article>
+      
+      
+      
+        <article class="detente col-xs-12 col-md-4">
+            <h3>Espace d&eacute;tente</h3>
+            <img src="img/detente.svg" alt="image d&eacute;tente">
+            <p>Un espace de repos id&eacute;al pour les petites (ou grandes) pauses!</p>
+            <div class="mobileLine bgGreen col-sm-12 visible-sm visible-xs"></div>
+          </article>
+      
+      
+      
+        <article class="reunion col-xs-12 col-md-4">
+            <h3>Salle de r&eacute;union</h3>
+            <img src="img/meeting.svg" alt="image reunion">
+            <p>Pouvant accueillir 10 personnes, &eacute;quip&eacute;e pour la visioconf&eacute;rence</p>   
+        </article>
+     
+    </div>
 
 
 
@@ -143,14 +182,16 @@
   </section>
   
   <section id="reservation" class="reservation container">
+    <div class="col-xs-12 text-center">
     <h2>R&eacute;servation</h2>
-    <div class="col-sm-12 col-md-6">
+    </div>
+    <div class="col-sm-12 col-md-6 formulaire">
       <form name="contact-form" method="post">
         <div>
         <input type="text" name="name" placeholder="Nom">
         </div>
         <div>
-            <input type="text" name="firstName" placeholder="Prénom">
+            <input type="text" name="firstName" placeholder="Pr&eacute;nom">
         </div>
         <div>
           <input type="email" placeholder="e-mail">
@@ -159,7 +200,7 @@
           <textarea name="message" id="" cols="30" rows="10" placeholder="Votre message"></textarea>
         </div>
         <div>
-        <button class="send" type="submit" name="send">Envoyer</button>
+        <button class="send myButton" type="submit" name="send">Envoyer</button>
         </div>
       </form>
     </div>
@@ -168,12 +209,42 @@
       <p class="phone">06 19 34 42 37</p>
       <p class="clock"> Du lundi au vendredi, de 9h à 18h</p>
       <p class="mail">contact@coworkinglaloupe.fr</p>
+      <div  class="box-iframe">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d661.2815214614678!2d1.0112771635267694!3d48.47329507914982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e3c1f7f154cb2f%3A0x56c92fac27b1deca!2s18+Rue+de+la+Gare%2C+28240+La+Loupe!5e0!3m2!1sfr!2sfr!4v1505461685960" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
     </div>
 
   </section>
 </main>
-<footer></footer>
+<footer>
+    
+</footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script>
+  
+      /* ==============================================
+      GOOGLE MAP & IFRAME SCROLL OFF
+      =============================================== */
+      $('.box-iframe > iframe').addClass('scrolloff');     
+      // set the mouse events to none when doc is ready
+       
+      $('.box-iframe').on("mouseup",function(){               
+          // lock it when mouse up
+          $(this).children('iframe').addClass('scrolloff');
+      });
+       
+      $('.box-iframe').on("mousedown",function(){             
+          // when mouse down, set the mouse events free
+          $(this).children('iframe').removeClass('scrolloff');
+      });
+       
+      $('.box-iframe > iframe').mouseleave(function () {       
+          // because the mouse up doesn't work... 
+          $(this).addClass('scrolloff');                   
+          // set the pointer events to none when mouse leaves the map area
+          // or you can do it on some other event
+      });
+  </script>
 </body>
 </html>

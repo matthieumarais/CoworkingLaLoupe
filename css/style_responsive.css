@@ -19,6 +19,9 @@
     background-color:#fff;
     text-align: center;
 }
+.formulaire{
+padding-bottom: 30px;
+}
 }
 
 @media screen and (max-width: 667px) {
@@ -42,5 +45,9 @@
     }
     .home img{
         height:50px;
+    }
+
+    .intro {
+        padding: 0px 20px;
     }
 }
