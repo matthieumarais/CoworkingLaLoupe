@@ -16,6 +16,7 @@ strong{
 a{
 	color:#fff;
 }
+
 .nav>li>a:focus, .nav>li>a:hover{
 	background-color:transparent;
 	color:#000;
