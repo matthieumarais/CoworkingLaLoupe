@@ -1,5 +1,10 @@
 /*font-family: 'Montez', cursive;
 font-family: 'Ubuntu', sans-serif;*/
+.container-fluid{
+	padding-left:0;
+	padding-right:0;
+}
+
 h1, h3{
 	font-family:'Montez', cursive;
 }
@@ -76,8 +81,15 @@ text-align: center;
 .home img{
 	height:130px;
 }
-
-
+.bgSiteWeb{
+	background:url("../img/body.JPG")no-repeat 0 0;
+	background-size:cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+.bgOpacity{
+	background-color:rgba(0,0,0,0.4);
+}
 
 
 
@@ -109,6 +121,7 @@ text-align: center;
 	font-size: 20px;
 	padding: 40px 0px;
 	line-height: 35px;
+	color:#fff;
 }
 .intro .maj {
 	font-family: 'Montez', cursive;
@@ -296,6 +309,7 @@ padding: 50px;
 .reservation h2{
 	padding-bottom:40px;
 	font-size:42px;
+	color:#fff;
 }
 .reservation .formulaire{
 	padding-right:60px;
@@ -331,6 +345,7 @@ padding: 50px;
 	padding-bottom:30px;
 	padding-left:40px;
 	position:relative;
+	color:#fff;
 }
 .reservation .adress::before{
 	content: "";
