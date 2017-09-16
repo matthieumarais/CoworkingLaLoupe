@@ -22,12 +22,24 @@ a{
 	color:#fff;
 }
 
-.nav>li>a:focus, .nav>li>a:hover{
-	background-color:transparent;
-	color:#000;
+
+.navbar-inverse{
+	background-color:#fff;
+	padding:10px 0;
+	border-color:#2cac95;
 }
-.navbar-brand:focus, .navbar-brand:hover{
-	color:#000;
+.navbar-inverse .navbar-nav>li>a{
+	color:#2cac95;
+	font-size:20px;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+	background-color:#2cac95;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #2cac95;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #2cac95;
 }
 p{
 	font-size:16px;
@@ -49,9 +61,11 @@ p{
 
 /* section home */
 
+
+
 .bgHome{
 	background-color:#2cac95;
-	height:100vh;
+	padding:120px 0 50px 0;
 }
 
 .home h1{
@@ -68,16 +82,7 @@ p{
 	color:#fff;
 	margin-bottom:60px;
 }
-.home  .title{
-top:15%;
-text-align: center;
-}
-.home .logos{
-	
-    left: 0;
-    right: 0;
-    text-align: center;
-}
+
 .home img{
 	height:130px;
 }

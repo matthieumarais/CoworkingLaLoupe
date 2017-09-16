@@ -22,6 +22,9 @@
 .formulaire{
 padding-bottom: 30px;
 }
+.reservation .formulaire {
+    padding-right: 15px;
+}
 }
 
 @media screen and (max-width: 667px) {
