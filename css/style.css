@@ -6,7 +6,7 @@ font-family: 'Ubuntu', sans-serif;*/
 }
 
 h1, h3{
-	font-family:'Montez', cursive;
+	font-family: 'Lobster', cursive;
 }
 
 a, p, h2{
@@ -34,6 +34,7 @@ a{
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
 	background-color:#2cac95;
+	border-radius:4px;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #2cac95;
@@ -85,6 +86,7 @@ p{
 
 .home img{
 	height:130px;
+	border-radius: 10px;
 }
 .bgSiteWeb{
 	background:url("../img/body.JPG")no-repeat 0 0;
