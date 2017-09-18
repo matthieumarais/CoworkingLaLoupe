@@ -12,6 +12,18 @@
 .home img {
     height: 90px;
 }
+.espace .titre{
+    line-height: 40px;
+}
+.services .row, .espace article, .tarifs .row{
+    padding: 0 170px;
+}
+.services article, .tarifs article{
+    padding-bottom: 30px;
+}
+.reservation .formulaire{
+	padding-right:15px;
+}
 }
 
 @media all and (max-width: 768px){	
@@ -32,6 +44,15 @@ padding-bottom: 30px;
 }
 .reservation .formulaire {
     padding-right: 15px;
+}
+.services .row, .tarifs .row{
+    padding: 0 170px;
+}
+.services article {
+    padding-bottom: 30px;
+}
+.services .pBlanc, .espace .titre {
+    font-size: 25px;
 }
 }
 
@@ -61,5 +82,24 @@ padding-bottom: 30px;
 
     .intro {
         padding: 0px 20px;
+    }
+    .services .row,.espace article, .tarifs .row{
+        padding: 0;
+    }
+    .services article, .tarifs article{
+        padding: 30px 30px;
+    }
+    .services .pBlanc {
+        font-size: 25px;
+    }
+    .reservation h2 {
+        font-size: 45px;
+    }
+    .intro p {
+        text-align: center;
+        font-size: 18px;
+        padding: 0px 0px;
+        line-height: 28px;
+        color: #fff;
     }
 }

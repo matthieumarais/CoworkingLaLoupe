@@ -130,8 +130,8 @@ p{
 .intro p{
 	text-align: center;
 	font-size: 22px;
-	padding: 70px 0px;
-	line-height: 35px;
+	padding: 10px 0px;
+	line-height: 25px;
 	color:#fff;
 }
 .intro .maj {
@@ -172,15 +172,13 @@ p{
 .espace h2{
 	text-align: center;
 	font-size: 50px;
-	margin: 30px 0px;
 	font-family: 'Ubuntu', sans-serif;
-    padding-bottom: 25px;
 }
 .espace .titre{
 	font-family: 'Ubuntu', sans-serif;
 	line-height: 50px;
 	text-decoration: none;
-	font-size: 35px;
+	font-size: 30px;
 }
 .espace h3 {
 	font-size: 33px;
@@ -188,7 +186,7 @@ p{
 	padding: 30px 0px;
 	text-align: center; 
 }
-.espace p{
+.espace article p{
 	padding: 45px 10px;
 	text-align: center;
 	font-size: 24px;
@@ -244,20 +242,25 @@ p{
 		background-color: rgba(255, 255, 255, 0.7);
 	}
 	.services article .boiteImg{
-		padding:60px 70px 30px 70px;
+		padding:40px 70px 30px 70px;
 	}
 	.services article div img{
 		width:100%;
 	}
-	.services p {
-		padding: 0 0 60px 0px;
+	.services article p {
+		padding: 0 0 80px 10px;
 		text-align: center;
 		font-size: 24px;
 		line-height: 30px;
 	}
 	.services .pBlanc {
-		font-size: 35px; 
+		font-size: 30px; 
 		color: white;
+		text-align: center;
+		line-height: 40px;
+	}
+	.pansement {
+		padding: 0 0 100px 0;
 	}
 	.services .colorPrix{
 		color: #2cac95;
@@ -266,7 +269,6 @@ p{
 		color: whitesmoke;
 		text-align: center;
 		font-size: 50px;
-		padding-bottom: 25px;
 	}
 /* section tarifs */
 .tarifs img{
@@ -275,11 +277,9 @@ width: 100%;
 .tarifs{
 padding: 50px 0;
 }
-.tarifs article{
-padding: 50px;
-}
+
 .tarifs article .bgBlanc{
-	background-color: white;
+	background-color: #ecedee;
 }
 .tarifs article .boiteImg{
 	padding:65px 70px 30px 70px;
@@ -303,7 +303,13 @@ padding: 50px;
 	font-size: 50px;
 	padding-bottom: 45px;
 }
-
+.tarifs .hebdo {
+	padding: 35px 0 25px 0;
+}
+.tarifs .shadow {
+	box-shadow: 0 10px 50px black;
+	background-color: white;			
+}
 
 
 
@@ -370,6 +376,7 @@ padding: 50px;
 	padding-left:40px;
 	position:relative;
 	color:#fff;
+	margin: 0;
 }
 .reservation a{
 	display:block;
@@ -413,6 +420,7 @@ padding: 50px;
 .reservation button:hover {
 	background-color: #2cac95;
 	color: white;
+	border: none;
 }
 .reservation .mail::before{
 	content: "";
