@@ -351,11 +351,14 @@ padding: 50px;
 	display:block;
 	padding:10px 0;
 }
-.reservation p{
+.reservation p, .reservation a{
 	padding-bottom:30px;
 	padding-left:40px;
 	position:relative;
 	color:#fff;
+}
+.reservation a{
+	display:block;
 }
 .reservation .adress::before{
 	content: "";
