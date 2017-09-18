@@ -404,3 +404,30 @@ padding: 50px;
 .reservation iframe{
 	width:100%;
 }
+
+
+
+
+
+
+
+
+
+footer .bgblack{
+	background-color: #293133; 
+}
+footer img{
+	height:50px;
+	padding:10px;
+	opacity: 0.8;
+}
+footer .footerem{
+	font-size: 0.8em;
+	color: white;
+	margin: 0px;
+	padding: 18px;
+	text-align: center;
+}
+footer .copyright{
+	color: white;
+}
