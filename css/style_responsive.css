@@ -3,7 +3,11 @@
 }
 @media all and (max-width:990px){
 .home h1{
-    font-size:150px;
+    font-size:110px;
+}
+.home h1 span {
+    font-size: 40px;
+    padding-left: 370px;
 }
 .home img {
     height: 90px;
@@ -14,10 +18,14 @@
 .myNavbar{
 	display:block
 }
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    margin-left:20px;
+}
 .nav>li>a{
     color:#000;
     background-color:#fff;
     text-align: center;
+    line-height: 30px;
 }
 .formulaire{
 padding-bottom: 30px;
@@ -36,11 +44,12 @@ padding-bottom: 30px;
         overflow-x: hidden !important;
     }
     .home h1{
-        font-size:70px;
-        line-height: 110px;
+        font-size:50px;
+        line-height: 40px;
     }
     .home h1 span {
-        font-size: 60px;
+        font-size: 25px;
+        padding-left: 130px;
     }
     .home p {
         font-size: 16px;
