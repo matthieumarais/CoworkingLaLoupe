@@ -407,6 +407,17 @@ padding: 50px;
 	width:25px;
 	height:25px;
 }
+.reservation .handicaps::before{
+	content: "";
+	background:url("../img/handicaps.svg")no-repeat;
+	background-size:cover;
+	display:block;
+	top:0;
+	left:0;
+	position:absolute;
+	width:25px;
+	height:25px;
+}
 .reservation .myButton {
 	font-size: 16px;
 }
