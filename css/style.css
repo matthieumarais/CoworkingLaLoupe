@@ -1,7 +1,12 @@
-/*font-family: 'Montez', cursive;
+/*font-family: 'Open Sans', sans-serif;
 font-family: 'Ubuntu', sans-serif;*/
+.container-fluid{
+	padding-left:0;
+	padding-right:0;
+}
+
 h1, h3{
-	font-family:'Montez', cursive;
+	font-family:'Open Sans', sans-serif;
 }
 
 a, p, h2{
@@ -17,12 +22,28 @@ a{
 	color:#fff;
 }
 
-.nav>li>a:focus, .nav>li>a:hover{
-	background-color:transparent;
+
+.navbar-inverse{
+	background-color:#fff;
+	padding:10px 0;
+	border-color:#2cac95;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color:#2cac95;
+	font-size:20px;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+	background-color:#2cac95;
+	border-radius:4px;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
 	color:#000;
 }
-.navbar-brand:focus, .navbar-brand:hover{
-	color:#000;
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #2cac95;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #2cac95;
 }
 p{
 	font-size:16px;
@@ -44,40 +65,42 @@ p{
 
 /* section home */
 
+
+
 .bgHome{
 	background-color:#2cac95;
-	height:100vh;
+	padding:160px 0 100px 0;
 }
 
 .home h1{
-	margin-bottom:30px;
-	font-size:230px;
-	line-height: 170px;
+	margin-bottom:100px;
+	font-size:140px;
+	line-height: 100px;
 	color:#fff;
 }
 .home h1 span{
-	font-size:100px;
+	font-size:60px;
+	padding-left: 440px;
 }
 .home p{
 	font-size:26px;
 	color:#fff;
-	margin-bottom:60px;
+	margin-bottom:50px;
 }
-.home  .title{
-top:15%;
-text-align: center;
-}
-.home .logos{
-	
-    left: 0;
-    right: 0;
-    text-align: center;
-}
+
 .home img{
 	height:130px;
+	border-radius: 10px;
 }
-
-
+.bgSiteWeb{
+	background:url("../img/body.JPG")no-repeat 0 0;
+	background-size:cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+.bgOpacity{
+	background-color:rgba(0,0,0,0.4);
+}
 
 
 
@@ -106,9 +129,10 @@ text-align: center;
 
 .intro p{
 	text-align: center;
-	font-size: 20px;
-	padding: 40px 0px;
+	font-size: 22px;
+	padding: 70px 0px;
 	line-height: 35px;
+	color:#fff;
 }
 .intro .maj {
 	font-family: 'Montez', cursive;
@@ -295,6 +319,7 @@ padding: 50px;
 .reservation h2{
 	padding-bottom:40px;
 	font-size:42px;
+	color:#fff;
 }
 .reservation .formulaire{
 	padding-right:60px;
@@ -330,6 +355,7 @@ padding: 50px;
 	padding-bottom:30px;
 	padding-left:40px;
 	position:relative;
+	color:#fff;
 }
 .reservation .adress::before{
 	content: "";
