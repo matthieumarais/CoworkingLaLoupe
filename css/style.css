@@ -130,8 +130,8 @@ p{
 .intro p{
 	text-align: center;
 	font-size: 22px;
-	padding: 70px 0px;
-	line-height: 35px;
+	padding: 10px 0px;
+	line-height: 25px;
 	color:#fff;
 }
 .intro .maj {
@@ -171,15 +171,14 @@ p{
 }
 .espace h2{
 	text-align: center;
-	font-size: 42px;
-	margin: 30px 0px;
+	font-size: 50px;
 	font-family: 'Ubuntu', sans-serif;
 }
 .espace .titre{
 	font-family: 'Ubuntu', sans-serif;
-	line-height: 34px;
+	line-height: 50px;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 30px;
 }
 .espace h3 {
 	font-size: 33px;
@@ -187,9 +186,11 @@ p{
 	padding: 30px 0px;
 	text-align: center; 
 }
-.espace p{
+.espace article p{
 	padding: 45px 10px;
 	text-align: center;
+	font-size: 24px;
+	line-height: 30px;
 }
 .openSpace img {
 	width: 100%;
@@ -234,11 +235,11 @@ p{
 	.services{
 	padding: 50px 0;
 	}
-	.services article{
+	.services article p{
 	padding: 50px;
 	}
 	.services article .bgBlanc{
-		background-color: #2cac95;
+		background-color: rgba(255, 255, 255, 0.7);
 	}
 	.services article .boiteImg{
 		padding:40px 70px 30px 70px;
@@ -246,17 +247,28 @@ p{
 	.services article div img{
 		width:100%;
 	}
-	.services p {
+	.services article p {
 		padding: 0 0 80px 10px;
 		text-align: center;
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.services .pBlanc {
+		font-size: 30px; 
+		color: white;
+		text-align: center;
+		line-height: 40px;
+	}
+	.pansement {
+		padding: 0 0 100px 0;
 	}
 	.services .colorPrix{
-		color: white;
+		color: #2cac95;
 	}
 	.services h2 {
-		color: #2cac95;
+		color: whitesmoke;
 		text-align: center;
-		font-size:42px;
+		font-size: 50px;
 	}
 /* section tarifs */
 .tarifs img{
@@ -265,31 +277,39 @@ width: 100%;
 .tarifs{
 padding: 50px 0;
 }
-.tarifs article{
-padding: 50px;
-}
+
 .tarifs article .bgBlanc{
-	background-color: white;
+	background-color: #ecedee;
 }
 .tarifs article .boiteImg{
-	padding:40px 70px 30px 70px;
+	padding:65px 70px 30px 70px;
 }
 .tarifs article div img{
 	width:100%;
 }
 .tarifs p {
-	padding: 0 0 80px 10px;
+	padding: 35px 0 60px 0;
 	text-align: center;
+    font-size: 24px;
+    line-height: 35px;
 }
+
 .tarifs .colorPrix{
 	color: #2cac95;
 }
 .tarifs h2 {
 	color: white;
 	text-align: center;
-	font-size:42px;
+	font-size: 50px;
+	padding-bottom: 45px;
 }
-
+.tarifs .hebdo {
+	padding: 35px 0 25px 0;
+}
+.tarifs .shadow {
+	box-shadow: 0 10px 50px black;
+	background-color: white;			
+}
 
 
 
@@ -318,7 +338,7 @@ padding: 50px;
 }
 .reservation h2{
 	padding-bottom:40px;
-	font-size:42px;
+	font-size: 50px;
 	color:#fff;
 }
 .reservation .formulaire{
@@ -331,7 +351,7 @@ padding: 50px;
 	font-size:16px;
 	font-family: "Montserrat",sans-serif;
 	background-color:#ecedee;
-	border:1px solid #2cac95;
+	border:2px solid #2cac95;
 	padding:16px;
 	display: block;
 	width:100%;
@@ -344,18 +364,22 @@ padding: 50px;
 	border:1px solid #2cac95;
 	display: block;
 	width:100%;
-	padding-bottom:86px;
+	padding: 15px 0 70px 15px;
 }
 .reservation .myButton{
 	width:100%;
 	display:block;
 	padding:10px 0;
 }
-.reservation p{
+.reservation p, .reservation a{
 	padding-bottom:30px;
 	padding-left:40px;
 	position:relative;
 	color:#fff;
+	margin: 0;
+}
+.reservation a{
+	display:block;
 }
 .reservation .adress::before{
 	content: "";
@@ -389,6 +413,14 @@ padding: 50px;
 	position:absolute;
 	width:25px;
 	height:25px;
+}
+.reservation .myButton {
+	font-size: 16px;
+}
+.reservation button:hover {
+	background-color: #2cac95;
+	color: white;
+	border: none;
 }
 .reservation .mail::before{
 	content: "";
