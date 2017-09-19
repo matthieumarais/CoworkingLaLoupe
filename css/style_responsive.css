@@ -33,8 +33,13 @@
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
     margin-left:20px;
 }
+
 .navbar-brand{
     margin-left:20px;
+}
+.navbar-inverse{
+    padding:0;
+
 }
 .nav>li>a{
     color:#000;
