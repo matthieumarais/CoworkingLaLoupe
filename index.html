@@ -66,7 +66,7 @@
   </section>
   <section class="container-fluid bgOpacity">
     <div id="introduction" class="container intro">
-    <div class="row">
+    <!--<div class="row">-->
       <div data-scroll-reveal="enter from the bottom move 30px after wait 0.3s no-reset" class="col-xs-12">
         <p>Situ&eacute; au pied de la gare, le <strong>&laquo; Coworking La Loupe &raquo;</strong> est un espace de travail partag&eacute;</p>
         <p>accessible à tous.</p>
@@ -78,7 +78,7 @@
         <p>Le lieu est port&eacute; par la Communaut&eacute; de communes <strong>&laquo; Terres de Perche &raquo;</strong></p> 
         <p>et la <strong>Wild Code School</strong>, l’&eacute;cole de d&eacute;veloppeurs web.</p>
       </div>
-    </div>
+    <!--</div>-->
   </div>
   </section>
 
@@ -265,8 +265,19 @@
   });
 
   /*SCROLLREVEAL*/
-	window.scrollReveal = new scrollReveal();
+  window.scrollReveal = new scrollReveal();
 
+  var navMain = $("#myNavbar");
+  navMain.on("click", "a", null, function () {
+    navMain.collapse('hide');
+  });
+  $(document).click(function (event) {
+    var clickover = $(event.target);
+    var _opened = $(".navbar-collapse").hasClass("in");
+    if (_opened === true && !clickover.hasClass("navbar-toggle")) {
+      $("button.navbar-toggle").click();
+    }
+  });
 </script>
 </body>
 </html>
