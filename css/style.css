@@ -237,33 +237,40 @@ padding: 110px 0 170px 0;
 }
 
 .tarifs article .bgBlanc{
-	background-color: #ecedee;
+	background-color: rgba(236, 237, 238, 0.8)
+	;;
+	margin-top: 20px;
 }
 .tarifs article .boiteImg{
-	padding:65px 70px 30px 70px;
+	padding:65px 70px 65px 70px;
 }
 .tarifs article div img{
 	width:100%;
 }
 .tarifs p {
-	padding: 35px 0 110px 0;
+	padding: 25px 0;
 	text-align: center;
-    font-size: 24px;
+    font-size: 27px;
     line-height: 35px;
 }
-
+.tarifs .time {
+	background-color: rgba(3, 76, 66, 0.8);
+	color: white;
+}
 .tarifs .colorPrix{
-	color: #2cac95;
-	font-size: 35px;
+	color: white;
+	font-weight: bold;
+	font-size: 45px;
+	background-color: rgba(3, 76, 66, 0.8);
+}
+.tarifs .hebdo {
+	padding: 40px 40px;
 }
 .tarifs h2 {
 	color: white;
 	text-align: center;
 	font-size: 50px;
 	padding-bottom: 85px;
-}
-.tarifs .hebdo {
-	padding: 35px 0 75px 0;
 }
 .tarifs .shadow {
 	box-shadow: 0 10px 50px black;
