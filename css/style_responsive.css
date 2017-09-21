@@ -6,11 +6,12 @@
     font-size:110px;
 }
 .home h1 span {
-    font-size: 40px;
-    padding-left: 370px;
+    font-size: 48px;
+    padding-left: 356px;
 }
 .home img {
     height: 90px;
+    margin: 20px;
 }
 .espace .titre{
     line-height: 40px;
@@ -47,6 +48,9 @@
     text-align: center;
     line-height: 30px;
 }
+.intro {
+    padding: 0 25px;
+}
 .formulaire{
 padding-bottom: 30px;
 }
@@ -73,23 +77,26 @@ padding-bottom: 30px;
         overflow-x: hidden !important;
     }
     .home h1{
-        font-size:50px;
+        font-size:60px;
         line-height: 40px;
     }
     .home h1 span {
-        font-size: 25px;
+        font-size: 45px;
         padding-left: 130px;
     }
     .home p {
-        font-size: 16px;
+        font-size: 25px;
         margin-bottom: 60px;
     }
-    .home img{
-        height:50px;
+    .home .initiative {
+        padding-top: 70px;
     }
 
     .intro {
         padding: 50px 20px;
+    }
+    .intro p {
+        font-size: 25px;
     }
     .services .row,.espace article, .tarifs .row{
         padding: 0;
