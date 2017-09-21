@@ -78,9 +78,9 @@ p{
 	
 }
 .home h1{
-	margin-bottom:100px;
 	font-size:140px;
 	line-height: 85px;
+	text-align: center;
 	color:#fff;
 	font-family: '';
 	text-shadow: 5px 5px 8px black;
@@ -92,16 +92,16 @@ p{
 	font-family: 'Cookie', sans-serif;
 }
 .home p{
-	font-size:26px;
+	font-size:24px;
+	text-align: right;
 	color:#fff;
 	margin-bottom:30px;
 }
 .home .initiative {
 	font-style: italic;
-	padding-top: 220px;
 }
 .home img{
-	height:130px;
+	height:80px;
 	border-radius: 10px;
 }
 .bgSiteWeb{
@@ -111,70 +111,29 @@ p{
 	background-position: center center;
 }
 .bgOpacity{
-	background-color:rgba(0,0,0,0.4);
+	background-color:rgba(0,0,0,0.5);
 }
-.home .logos {
-	padding-top: 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* section intro */
 .intro {
-	padding: 50px 0px;
+	padding: 50px 0px 30px 0 ;
 }
 
 .intro p{
 	text-align: center;
 	font-size: 25px;
-	padding: 16px 0px;
-	line-height: 25px;
+	padding: 0 0 20px 0px;
+	line-height: 35px;
 	color:#fff;
 	text-shadow: 3px 3px 3px black;
+	margin:0;
 }
 .intro .maj {
 	font-family: 'Montez', cursive;
 	font-size: 16px;
 	font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* section espace */
@@ -225,30 +184,12 @@ p{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* section Services */
 .services img{
 	width: 100%;
 	}
 	.services{
-	padding: 50px 0;
+	padding: 110px 0 170px 0;
 	}
 	.services article p{
 	padding: 50px;
@@ -257,7 +198,7 @@ p{
 		background-color: rgba(255, 255, 255, 0.7);
 	}
 	.services article .boiteImg{
-		padding:40px 70px 30px 70px;
+		padding:80px 70px 30px 70px;
 	}
 	.services article div img{
 		width:100%;
@@ -265,7 +206,7 @@ p{
 	.services article p {
 		padding: 0 0 80px 10px;
 		text-align: center;
-		font-size: 24px;
+		font-size: 28px;
 		line-height: 30px;
 	}
 	.services .pBlanc {
@@ -284,13 +225,14 @@ p{
 		color: whitesmoke;
 		text-align: center;
 		font-size: 50px;
+		padding-bottom: 40px;
 	}
 /* section tarifs */
 .tarifs img{
 width: 100%;
 }
 .tarifs{
-padding: 50px 0;
+padding: 110px 0 170px 0;
 }
 
 .tarifs article .bgBlanc{
@@ -303,7 +245,7 @@ padding: 50px 0;
 	width:100%;
 }
 .tarifs p {
-	padding: 35px 0 60px 0;
+	padding: 35px 0 110px 0;
 	text-align: center;
     font-size: 24px;
     line-height: 35px;
@@ -317,35 +259,15 @@ padding: 50px 0;
 	color: white;
 	text-align: center;
 	font-size: 50px;
-	padding-bottom: 45px;
+	padding-bottom: 85px;
 }
 .tarifs .hebdo {
-	padding: 35px 0 25px 0;
+	padding: 35px 0 75px 0;
 }
 .tarifs .shadow {
 	box-shadow: 0 10px 50px black;
 	background-color: white;			
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* section réservation */
@@ -463,13 +385,6 @@ padding: 50px 0;
 .reservation iframe{
 	width:100%;
 }
-
-
-
-
-
-
-
 
 
 footer .bgblack{
