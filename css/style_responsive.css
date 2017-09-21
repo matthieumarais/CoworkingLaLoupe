@@ -129,4 +129,8 @@ padding-bottom: 30px;
         line-height: 28px;
         color: #fff;
     }
+    .bgHome{
+        height: auto;
+    }
+    
 }
