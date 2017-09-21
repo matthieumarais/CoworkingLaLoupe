@@ -5,6 +5,12 @@
     .intro {
         padding: 20px 0px 30px 0;
     }
+    .intro p{
+        font-size: 20px;
+    }
+    .home img {
+        height: 70px;
+    }
 }
 @media all and (max-width:990px){
 .home h1{
@@ -15,9 +21,9 @@
     padding-left: 356px;
 }
 .home img {
-    height: 90px;
-    margin: 20px;
+    height: 60px;
 }
+
 .espace .titre{
     line-height: 40px;
 }
@@ -56,6 +62,7 @@
 .intro {
     padding: 0 25px;
 }
+
 .formulaire{
 padding-bottom: 30px;
 }
@@ -89,9 +96,12 @@ padding-bottom: 30px;
         font-size: 45px;
         padding-left: 130px;
     }
+    .home .initiative {
+        font-size: 20px;
+    }
     .home p {
         font-size: 25px;
-        margin-bottom: 60px;
+        margin-bottom: 20px;
     }
     .home .initiative {
         padding-top: 70px;
@@ -99,9 +109,6 @@ padding-bottom: 30px;
 
     .intro {
         padding: 50px 20px;
-    }
-    .intro p {
-        font-size: 25px;
     }
     .services .row,.espace article, .tarifs .row{
         padding: 0;
@@ -117,9 +124,13 @@ padding-bottom: 30px;
     }
     .intro p {
         text-align: center;
-        font-size: 18px;
+        font-size: 16px;
         padding: 0px 0px;
         line-height: 28px;
         color: #fff;
     }
+    .bgHome{
+        height: auto;
+    }
+    
 }

@@ -71,12 +71,10 @@ p{
 
 
 .bgHome{
-	padding:160px 0 100px 0;
+	padding:120px 0 100px 0;
 	height: 100vh;
 }
-#home {
-	
-}
+
 .home h1{
 	font-size:140px;
 	line-height: 85px;
@@ -104,6 +102,9 @@ p{
 	height:80px;
 	border-radius: 10px;
 }
+.home .imgTdP img{
+	margin-right:10px;
+}
 .bgSiteWeb{
 	background:url("../img/body.JPG")no-repeat 0 0;
 	background-size:cover;
@@ -117,13 +118,13 @@ p{
 
 /* section intro */
 .intro {
-	padding: 50px 0px 30px 0 ;
+	padding: 50px 0px 10px 0 ;
 }
 
 .intro p{
 	text-align: center;
-	font-size: 25px;
-	padding: 0 0 20px 0px;
+	font-size: 24px;
+	padding: 0 0 15px 0px;
 	line-height: 35px;
 	color:#fff;
 	text-shadow: 3px 3px 3px black;
